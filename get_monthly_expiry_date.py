@@ -1,5 +1,6 @@
 # Author Arun K Selvaraj
 # Created to get NSE monthly expiry date.
+
 import datetime, calendar
 
 def get_monthly_expiry_date(year, month):
@@ -19,4 +20,4 @@ def get_monthly_expiry_date(year, month):
 
     return dt
 
-for month in range(1, 13): print(get_monthly_expiry_date(2021, month))
+#for month in range(1, 13): print(get_monthly_expiry_date(2021, month))
