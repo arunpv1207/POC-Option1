@@ -1,7 +1,11 @@
 import GetIndexData
 
 def main():
-    print(GetIndexData.NiftyEOD("20210101","20210401"))
+    Nifty_val = GetIndexData.NiftyEOD("20210101","20210110")
+    print(Nifty_val)
+    print(str(Nifty_val['Open']))
+    
+    #print(Nifty_val.info())
 
 if __name__ == "__main__":
     main()
